@@ -1,0 +1,49 @@
+body {
+    background: #D3CCE3;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #E9E4F0, #D3CCE3);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #E9E4F0, #D3CCE3);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   
+}
+.container{
+    height: 1200px;
+}
+#p1{
+position: relative;
+top: 100px;
+left: 50px;
+align-items: center;
+}
+
+p{
+    text-align: justify;
+}
+
+#dato{
+    position: relative;
+    top: 160px;
+    width: 70%;
+}
+
+#dp{
+   position: relative;
+   top: 200px;
+}
+
+#dp p{
+    margin-right: 400px;
+}
+
+#comp{
+    position: relative;
+    top: 250px;
+}
+
+#foo{
+    position: relative;
+  display: flex;
+  justify-content: center;
+  top: 300px;
+}

@@ -1,0 +1,42 @@
+body {
+    background: #D3CCE3;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #E9E4F0, #D3CCE3);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #E9E4F0, #D3CCE3);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.container{
+    height: 2250px;
+}
+#prin{
+    position: relative;
+    top: 100px;
+}
+
+#foo {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 100px;
+}
+
+p{
+    text-align: justify;
+}
+
+.boimg{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.boimg img{
+    align-self: center;
+}
+
+#prin li{
+    padding: 8px;
+}
+

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina principal</title>
+    <link rel="stylesheet" href="estilos2.css" />
+    <!-- Añade la librería CSS de Bootstrap aquí -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <main class="container">
+
+        <nav class="navbar navbar-expand-lg navbar-light w-100 position-absolute top-0 start-50 translate-middle-x"
+            style="background-color: #D6BEF6;">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link fs-4 me-3" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-4 me-3" href="p1.html">Página 1</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-4 me-3" href="p2.html">Página 2</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active fs-4" href="p3.html">Página 3</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div id="prin" class="row">
+            <div class="col-md-7 ">
+                <h2>Descargar e instalar Bootstrap</h2>
+                <div class="boimg">
+
+                    <img src="Imagenes/boos.jpg" width="80%" alt="">
+                </div>
+                <div>
+                    <p class="fs-4">Debido a que Twitter lanzó Bootstrap como un software libre, su descarga y uso no
+                        tienen ningún coste. Aquellos
+                        desarrolladores web con más experiencia también se benefician del estatus open source de
+                        Bootstrap, pues pueden adaptar
+                        y modificar el framework de acuerdo a sus necesidades. En la siguiente guía presentamos las
+                        medidas necesarias para
+                        utilizar plantillas de Bootstrap en JavaScript y CSS.</p>
+
+                    <ol class="fs-5">
+                        <li>Visita la página oficial de <a
+                                href="https://getbootstrap.com/docs/5.3/getting-started/introduction/">Bootstrap</a> y
+                            descarga el pack “Bootstrap”, que contiene los archivos CSS y JavaScript (en
+                            versión compilada y reducida), así como las fuentes y el tema opcional.</li>
+                        <li>Descomprime el archivo y copia el “Bootstrap File” en el directorio deseado.</li>
+                        <li>Obtendrás las carpetas “CSS”, “fonts” y “js”. La carpeta “fonts” contiene más de 250 iconos
+                            en forma de tipografía de la
+                            fuente Glyphicons Halflings, que no tiene ningún coste para los usuarios de Bootstrap. Los
+                            archivos de las carpetas
+                            “CSS” y “js” contienen:
+                            <ul>
+                                <li><b>bootstrap.css</b>: código CSS en formato legible</li>
+                                <li><b>bootstrap.min.css</b>: código CSS reducido. Se ha eliminado contenido irrelevante
+                                    (como espacios) para facilitar su interpretación</li>
+                                <li><b>bootstrap.css.map</b>: contiene mapas de fuente CSS, que facilitan la búsqueda de
+                                    datos originales en formato LESS</li>
+                                <li><b>bootstrap-theme.css</b>: bootstrap-theme.css</li>
+                                <li><b>bootstrap-theme.min.css</b>: código reducido de los temas</li>
+                                <li><b>bootstrap.js</b>: código JavaScript en formato legible</li>
+                                <li><b>bootstrap.min.js</b>: código JavaScript reducido</li>
+                            </ul>
+                        </li>
+                        <li>Si deseas utilizar elementos de JavaScript, puedes descargar adicionalmente la amplia
+                            biblioteca JavaScript de funciones
+                            jQuery en <a href="https://jquery.com/">jquery.com</a>.
+                        </li>
+                        <li>Una vez se han descargado e identificado todos los componentes, puedes empezar a trabajar
+                            con el framework.
+                        </li>
+                        <li>Para crear una plantilla de Bootstrap desde un documento HTML, es necesario implementar archivos CSS y JavaScript en
+                        el documento. Esto se logra especificando el directorio donde se encuentran las carpetas. Es aconsejable incluir
+                        JavaScript al final del documento, pues de lo contrario podrías estar alargando los tiempos de carga de tu página web.
+                        El código tendrá entonces este aspecto:</li>
+                        <img src="Imagenes/p3.png" width="80%" alt="">
+                        <li>Una plantilla Bootstrap puede ser personalizada libremente. En la página web oficial encontrarás los diferentes códigos
+                        para configurar tipografías, botones, el Bootstrap grid, etc.</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="col"></div>
+            <div class="col-md-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="Imagenes/pro.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4>La importancia de los conocimientos previos en programación</h4>
+                        <p class="card-text">Aún cuando Bootstrap cuenta con contenidos prediseñados, es necesario tener
+                            conocimientos básicos en HTML y CSS para
+                            poder configurarlos. Incluso programadores experimentados pueden necesitar algo de tiempo
+                            para acomodarse a la interfaz,
+                            aunque suele tener su recompensa. Para quienes no tengan el tiempo o los medios, existen
+                            bibliotecas de plantillas
+                            Bootstrap creadas por otros usuarios y que están disponibles de forma gratuita o de pago
+                            para ser descargadas. Quien
+                            trabaje con HTML, CSS y JavaScript reconocerá rápidamente las ventajas de trabajar con este
+                            framework.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col"></div>
+        </div>
+
+
+        <div id="foo">
+            <nav aria-label="...">
+                <ul class="pagination">
+                    <li class="page-item">
+                        <a class="page-link" href="p2.html">Previous</a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="index.html">1</a></li>
+                    <li class="page-item"><a class="page-link" href="p1.html">2</a></li>
+                    <li class="page-item"><a class="page-link" href="p2.html">3</a></li>
+                    <li class="page-item active"><a class="page-link" href="p3.html">4</a></li>
+                    <li class="page-item disabled">
+                        <a class="page-link" href="p3.html">Next</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
